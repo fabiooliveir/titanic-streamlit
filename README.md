@@ -1,7 +1,5 @@
 # Titanic Streamlit Project
 
-![Titanic](https://miro.medium.com/v2/resize:fit:1200/format:webp/1*7SX7D4FSxA4sQe_2h4xU2w.png)
-
 ## Descrição do Projeto
 
 Este projeto é uma aplicação de análise de dados e aprendizado de máquina desenvolvida em Python usando o framework **Streamlit**. Ele explora o famoso dataset do Titanic, disponível no Kaggle, e permite que os usuários interajam com os dados para obter insights sobre o desastre do Titanic. A aplicação inclui visualizações de dados e uma previsão de sobrevivência usando um modelo de Regressão Logística.
