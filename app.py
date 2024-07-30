@@ -3,7 +3,13 @@ import pandas as pd
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score
+
+# Configuração da página do Streamlit
+st.set_page_config(
+    page_title="Análise do Titanic",  # Define o título da aba do navegador
+    layout="centered",                # Layout da página (pode ser 'centered' ou 'wide')
+    initial_sidebar_state="expanded"  # Estado inicial da barra lateral (pode ser 'expanded' ou 'collapsed')
+)
 
 # Função para carregar os dados do Titanic
 @st.cache_data
